@@ -2,3 +2,17 @@ html {
 	font-size: 62.5%;
 	box-sizing: border-box;
 }
+
+body {
+	background-color: #3b3b3b;
+}
+
+.logo {
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 45px;
+
+	img {
+		object-fit: contain;
+	}
+}

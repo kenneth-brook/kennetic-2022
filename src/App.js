@@ -1,9 +1,9 @@
-
+import kclogo from './assets/kclogo.png'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="logo">
+      <img src={kclogo} />
     </div>
   );
 }
