@@ -5,15 +5,28 @@
 	box-shadow: white 1px 4px 12px;
 	text-align: center;
 	padding: 15px 0;
+	display: flex;
+	justify-content: center;
 
-	h1 {
-		color: #0000ff;
-		font-size: 6rem;
-		text-shadow: white 0px 2px 8px;
+	.logoWrap {
+		width: 9%;
 	}
 
-	h4 {
-		color: #ffff00;
-		font-size: 4rem;
+	.headTextWrap {
+		margin-left: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		h1 {
+			color: #0000ff;
+			font-size: 6rem;
+			text-shadow: white 0px 2px 8px;
+		}
+
+		h4 {
+			color: #ffff00;
+			font-size: 4rem;
+		}
 	}
 }
