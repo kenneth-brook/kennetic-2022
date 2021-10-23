@@ -2,15 +2,18 @@ import React from "react";
 
 import NewsBlock from "./newsBlock/NewsBlock";
 
+import {data} from "../../data/data";
+
 function Home() {
+    const portData = data
     return (
         <div className="homeWrap">
-            <NewsBlock />
-            <NewsBlock />
-            <NewsBlock />
-            <NewsBlock />
-            <NewsBlock />
-            <NewsBlock />
+            {portData.map((card) => {
+                return (
+                  <NewsBlock />  
+                ); 
+            })}
+            
         </div>
     )
 }
