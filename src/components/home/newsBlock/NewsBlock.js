@@ -1,8 +1,12 @@
 import React from "react";
 
-function NewsBlock() {
+function NewsBlock(props) {
     return (
-        <div className="newsWrap"></div>
+        <div className="newsWrap">
+            <h1>{props.title}</h1>
+            <h2>{props.date}</h2>
+            <p>{props.info}</p>
+        </div>
     )
 }
 

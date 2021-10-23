@@ -10,7 +10,12 @@ function Home() {
         <div className="homeWrap">
             {portData.map((card) => {
                 return (
-                  <NewsBlock />  
+                  <NewsBlock
+                  key={card.id}
+                  title={card.title}
+                  date={card.date}
+                  info={card.info}
+                   />  
                 ); 
             })}
             
