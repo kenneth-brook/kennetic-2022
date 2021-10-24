@@ -18,7 +18,12 @@
 					color: white;
 					font-size: 3rem;
 					text-decoration: none;
-					margin: 0 10px;
+					padding: 0 15px;
+					border-left: 2px solid white;
+				}
+
+				li:first-child .link {
+					border-left: none;
 				}
 
 				.link:hover {
