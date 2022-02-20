@@ -1,6 +1,7 @@
 .navWrap {
 	width: 100%;
 	flex: 1;
+	margin-bottom: 35px;
 
 	.navLinks {
 		width: 100%;
@@ -11,8 +12,10 @@
 		nav {
 			ul {
 				display: flex;
+				flex-wrap: wrap;
 				justify-content: center;
 				padding: 35px 0;
+				text-align: center;
 
 				.link {
 					color: white;

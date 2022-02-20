@@ -8,7 +8,9 @@ function Home() {
     const portData = data
     return (
         <div className="homeMainWrap">
-        <div className="headTitle"></div>
+        <div className="homeWrap">
+            <h3>Impacting the reality of business, one line of code at a time.</h3>
+        </div>
         <div className="homeWrap">
             {portData.map((card) => {
                 return (
